@@ -1,96 +1,48 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      pokemonType: {
-        bug: {
-          value: "#A7B723",
+    extend: {
+      colors: {
+        pokemonType: {
+          bug: "#A7B723",
+          dark: "#75574C",
+          dragon: "#7037FF",
+          electric: "#F9CF30",
+          fairy: "#E69EAC",
+          fighting: "#C12239",
+          fire: "#F57D31",
+          flying: "#A891EC",
+          ghost: "#70559B",
+          normal: "#AAA67F",
+          grass: "#74CB48",
+          ground: "#DEC16B",
+          ice: "#9AD6DF",
+          poison: "#A43E9E",
+          psychic: "#FB5584",
+          rock: "#B69E31",
+          steel: "#B7B9D0",
+          water: "#6493EB",
         },
-        dark: {
-          value: "#75574C",
+        identity: {
+          primary: "#DC0A2D",
         },
-        dragon: {
-          value: "#7037FF",
-        },
-        electric: {
-          value: "#F9CF30",
-        },
-        fairy: {
-          value: "#E69EAC",
-        },
-        fighting: {
-          value: "#C12239",
-        },
-        fire: {
-          value: "#F57D31",
-        },
-        flying: {
-          value: "#A891EC",
-        },
-        ghost: {
-          value: "#70559B",
-        },
-        normal: {
-          value: "#AAA67F",
-        },
-        grass: {
-          value: "#74CB48",
-        },
-        ground: {
-          value: "#DEC16B",
-        },
-        ice: {
-          value: "#9AD6DF",
-        },
-        poison: {
-          value: "#A43E9E",
-        },
-        psychic: {
-          value: "#FB5584",
-        },
-        rock: {
-          value: "#B69E31",
-        },
-        steel: {
-          value: "#B7B9D0",
-        },
-        water: {
-          value: "#6493EB",
-        },
-      },
-      identity: {
-        primary: {
-          value: "#DC0A2D",
-        },
-      },
-      grayscale: {
-        dark: {
-          value: "#1D1D1D",
-        },
-        medium: {
-          value: "#666666",
-        },
-        light: {
-          value: "#E0E0E0",
-        },
-        background: {
-          value: "#EFEFEF",
-        },
-        white: {
-          value: "#FFFFFF",
-        },
-        wireframe: {
-          value: "#B8B8B8",
+        grayscale: {
+          dark: "#1D1D1D",
+          medium: "#666666",
+          light: "#E0E0E0",
+          background: "#EFEFEF",
+          white: "#FFFFFF",
+          wireframe: "#B8B8B8",
         },
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
