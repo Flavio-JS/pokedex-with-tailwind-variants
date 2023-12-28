@@ -7,14 +7,10 @@ export const DetailsPokemonStatsBar = ({
 }: DetailsPokemonStatsBarTypes) => {
   const styles = detailsPokemonStatsBarStyles({ typeColor: types[0] });
   return (
-    <div
-      className="flex flex-col items-center gap-[16px] w-full"
-    >
+    <div className="flex flex-col items-center gap-[16px] w-full">
       <h1 className={styles.detailsPokemonStatsBarTitle()}>Base Stats</h1>
       <div className={styles.detailsPokemonStatsBarWrapper()}>
-        <div
-          className="flex flex-col justify-between"
-        >
+        <div className="flex flex-col justify-between">
           <span className={styles.detailsPokemonStatsBarTitle()}>HP</span>
           <span className={styles.detailsPokemonStatsBarTitle()}>ATK</span>
           <span className={styles.detailsPokemonStatsBarTitle()}>DEF</span>
@@ -22,12 +18,8 @@ export const DetailsPokemonStatsBar = ({
           <span className={styles.detailsPokemonStatsBarTitle()}>SDEF</span>
           <span className={styles.detailsPokemonStatsBarTitle()}>SPD</span>
         </div>
-        <div
-          className="border-l h-[96px] w-[1px] border-gray-300"
-        />
-        <div
-          className="flex flex-col justify-between"
-        >
+        <div className="border-l h-[96px] w-[1px] border-gray-300" />
+        <div className="flex flex-col justify-between">
           <span className="text-xs">{stats.hp}</span>
           <span className="text-xs">{stats.atk}</span>
           <span className="text-xs">{stats.def}</span>
@@ -35,9 +27,7 @@ export const DetailsPokemonStatsBar = ({
           <span className="text-xs">{stats.sdef}</span>
           <span className="text-xs">{stats.spd}</span>
         </div>
-        <div
-          className="flex flex-col justify-around w-full"
-        >
+        <div className="flex flex-col justify-around w-full">
           <div className="flex">
             <div
               className={styles.detailsPokemonStatsBarRow()}

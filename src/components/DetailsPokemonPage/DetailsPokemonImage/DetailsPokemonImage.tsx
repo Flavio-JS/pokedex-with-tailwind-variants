@@ -14,19 +14,15 @@ export const DetailsPokemonImage = ({
   const router = useRouter();
 
   const handlePreviousPokemonClick = (pokemonId: number) => {
-    if (pokemonId) {
-      if (pokemonId === 1) return void router.push(`/pokemon/1010`);
+    if (pokemonId === 1) return void router.push(`/pokemon/1010`);
 
-      return void router.push(`/pokemon/${pokemonId - 1}`);
-    }
+    return void router.push(`/pokemon/${pokemonId - 1}`);
   };
 
   const handleNextPokemonClick = (pokemonId: number) => {
-    if (pokemonId) {
-      if (pokemonId === 1010) return void router.push(`/pokemon/1`);
+    if (pokemonId === 1010) return void router.push(`/pokemon/1`);
 
-      return void router.push(`/pokemon/${pokemonId + 1}`);
-    }
+    return void router.push(`/pokemon/${pokemonId + 1}`);
   };
   return (
     <div className={styles.detailsPokemonImageWrapper()}>

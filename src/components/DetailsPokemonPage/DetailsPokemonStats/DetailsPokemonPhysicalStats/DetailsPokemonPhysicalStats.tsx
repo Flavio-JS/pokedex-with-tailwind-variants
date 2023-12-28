@@ -27,9 +27,7 @@ export const DetailsPokemonPhysicalStats = ({
 
       <div className="border-l h-[61px] w-[1px] border-gray-300" />
       <div className="flex flex-col items-center justify-between py-[2px]">
-        <div
-          className="flex flex-col items-center text-[10px]"
-        >
+        <div className="flex flex-col items-center text-[10px]">
           {abilities.map((abilitie, i) => (
             <span key={`${abilitie + i}`}>{abilitie}</span>
           ))}

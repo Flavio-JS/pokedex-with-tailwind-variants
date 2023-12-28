@@ -21,7 +21,7 @@ export const useSortButton = () => {
       undefined,
       {
         shallow: true,
-      }
+      },
     );
   };
 

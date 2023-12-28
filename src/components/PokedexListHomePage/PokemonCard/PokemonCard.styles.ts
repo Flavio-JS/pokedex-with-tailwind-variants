@@ -7,7 +7,8 @@ export const pokemonCardStyles = tv({
     pokemonNumberWrapper:
       "flex justify-end h-[12px] w-full py-[4px] px-[8px] text-xs",
     pokemonImageWrapper: "relative",
-    pokemonImage: "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/3",
+    pokemonImage:
+      "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/3",
     pokemonNameWrapper:
       "text-center py-[24px] px-[8px] pb-[4px] bg-grayscale-background text-xs overflow-hidden whitespace-nowrap overflow-ellipsis",
   },

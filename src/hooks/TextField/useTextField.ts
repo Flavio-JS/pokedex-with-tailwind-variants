@@ -23,7 +23,7 @@ export const useTextField = () => {
       undefined,
       {
         shallow: true,
-      }
+      },
     );
   };
 
@@ -43,7 +43,7 @@ export const useTextField = () => {
       undefined,
       {
         shallow: true,
-      }
+      },
     );
 
     setSearchTerm(newSearchTerm);

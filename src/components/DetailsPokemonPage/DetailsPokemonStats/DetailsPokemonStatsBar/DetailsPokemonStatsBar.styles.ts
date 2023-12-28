@@ -4,7 +4,8 @@ export const detailsPokemonStatsBarStyles = tv({
   slots: {
     detailsPokemonStatsBarTitle: "text-[10px] font-bold",
     detailsPokemonStatsBarWrapper: "flex gap-[8px] w-full max-w-[312px]",
-    detailsPokemonStatsBarRowFull: "w-full h-[4px] opacity-20 bg-grayscale-wireframe",
+    detailsPokemonStatsBarRowFull:
+      "w-full h-[4px] opacity-20 bg-grayscale-wireframe",
     detailsPokemonStatsBarRow: "h-[4px] bg-grayscale-wireframe",
   },
   variants: {

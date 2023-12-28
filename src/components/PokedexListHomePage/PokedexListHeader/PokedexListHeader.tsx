@@ -1,4 +1,3 @@
-
 import { SortButton } from "../SortButton/SortButton";
 import { TextField } from "../TextField/TextField";
 import { pokedexListHeaderStyles } from "./PokedexListHeader.styles";
