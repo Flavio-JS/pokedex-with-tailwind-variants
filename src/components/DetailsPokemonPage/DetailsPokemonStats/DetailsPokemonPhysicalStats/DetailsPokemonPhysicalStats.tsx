@@ -25,7 +25,7 @@ export const DetailsPokemonPhysicalStats = ({
         <span className="text-[8px] text-gray-600">Height</span>
       </div>
 
-      <div className="border-l h-[48px] w-[1px] border-gray-300" />
+      <div className="border-l h-[61px] w-[1px] border-gray-300" />
       <div className="flex flex-col items-center justify-between py-[2px]">
         <div
           className="flex flex-col items-center text-[10px]"
